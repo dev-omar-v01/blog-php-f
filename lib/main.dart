@@ -1,3 +1,4 @@
+import 'package:blog_flutter_php/components/TopPostCard.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -80,7 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Icon(Icons.today) )
 
             ],
-          )
+          ),
+          TopPostCard(),
         ],
       ),
     );
